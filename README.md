@@ -1,8 +1,41 @@
-# JQuery-HW
+# 05 Third-Party APIs: Work Day Scheduler
 
-This project was from the Chapter 5 week where we discussed and learned about jQuery. 
-We were supposed to take exsiting code and refactor the code as well as add code to the JavaScript 
-to add some features such as making sure the Date and Time display to the top of the page,
-Making sure that when the user adds something to the calander it saves to the local storage on their
-personal computers, and making sure that the styles set to each of the different times of the day 
-show the correct style.
+## Your Task
+
+Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+
+during the working process I ran into issues and tried my best to make everything  work as best as possible and this is what 
+I was able to come up with
+
+## User Story
+
+```md
+AS AN employee with a busy schedule
+I WANT to add important events to a daily planner
+SO THAT I can manage my time effectively
+```
+
+## Acceptance Criteria
+
+```md
+GIVEN I am using a daily planner to create a schedule
+WHEN I open the planner
+THEN the current day is displayed at the top of the calendar
+WHEN I scroll down
+THEN I am presented with timeblocks for standard business hours
+WHEN I view the timeblocks for that day
+THEN each timeblock is color coded to indicate whether it is in the past, present, or future
+WHEN I click into a timeblock
+THEN I can enter an event
+WHEN I click the save button for that timeblock
+THEN the text for that event is saved in local storage
+WHEN I refresh the page
+THEN the saved events persist
+```
+
+The following picture is of what I was able to finish and make work.
+
+![Screenshot (8)](https://user-images.githubusercontent.com/117127694/210905368-478fdfd8-8272-4d47-9813-24f8e8501f3d.png)
+
+
+© 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
